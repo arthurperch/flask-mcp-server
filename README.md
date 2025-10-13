@@ -1,4 +1,5 @@
 # Flask MCP Server with AWS Cost Optimizer
+<img width="1915" height="940" alt="Screenshot 2025-10-13 020657" src="https://github.com/user-attachments/assets/6e6b80ef-4a2a-4fe3-9cb3-508669d350b5" />
 
 ## Executive Summary
 
