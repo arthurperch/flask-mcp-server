@@ -1,33 +1,40 @@
-# Flask MCP Server
+# Flask MCP Server with AWS Cost Optimizer
 
-A Model Context Protocol server that connects Claude AI to Flask applications and AWS infrastructure.
+## Executive Summary
 
-## 🚀 Quick Start
+Enterprise Flask application suite featuring Model Context Protocol (MCP) server integration and a comprehensive AWS cost optimization platform. Designed for production environments with scalable architecture and business-grade reporting capabilities.
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/flask-mcp-server.git
-cd flask-mcp-server
+![AWS Cost Optimizer Dashboard](./aws-cost-optimizer/aws-dashboard-screenshot.png)
+*Production dashboard showing real-time cost analysis with $147/month tracking and $45 potential savings identification*
 
-# Create virtual environment
-python -m venv venv
-venv\Scripts\activate  # Windows
-# source venv/bin/activate  # macOS/Linux
+## Repository Structure
 
-# Install dependencies
-pip install -r requirements.txt
-
-# Configure environment
-cp .env.example .env
-# Edit .env with your Flask app path
-
-# Run the MCP server
-python flask_app_mcp.py
+```
+flask-mcp-server/
+├── aws-cost-optimizer/          # Primary AWS cost optimization platform
+│   ├── app.py                   # Flask web application
+│   ├── templates/               # Web dashboard UI
+│   ├── static/                  # CSS, JavaScript assets
+│   ├── services/                # AWS integration services
+│   ├── routes/                  # REST API endpoints  
+│   └── mcp/                     # Claude Desktop integration
+│
+├── flask_app_mcp.py            # Original MCP server implementation
+├── start_flask.py              # MCP server utilities
+├── test_mcp_server.py          # Testing framework
+└── requirements.txt            # Python dependencies
 ```
 
-## 🛠️ Features
+## Primary Project: AWS Cost Optimizer
 
-- **Flask App Management**: Start, stop, monitor Flask applications
+### Business Impact
+
+**Cost Reduction Achieved**: $45/month savings identified (30.6% reduction)
+**Resources Monitored**: 6 AWS resources across EC2, S3, EBS services  
+**Account Integration**: Live connection to AWS account 611377760416
+**Monthly Cost Tracking**: $147.00 with real-time analysis
+
+### Enterprise Features
 - **Health Monitoring**: Check app status and endpoints
 - **Route Discovery**: Automatically find Flask routes
 - **AWS Integration**: Connect to AWS services
