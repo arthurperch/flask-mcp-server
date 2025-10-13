@@ -4,8 +4,30 @@
 
 Enterprise-grade AWS cost optimization platform delivering real-time financial insights, automated cost reduction recommendations, and comprehensive resource analysis. Built with modern web technologies and integrated with Claude Desktop via Model Context Protocol (MCP) for natural language cloud cost management.
 
-![AWS Cost Optimizer Dashboard](./aws-dashboard-screenshot.png)
-*Production dashboard showing real-time cost analysis with $147/month tracking and $45 potential savings identification*
+## Production Dashboard Overview
+
+The AWS Cost Optimizer features a professional web dashboard with the following key components:
+
+**Cost Summary Cards**
+- Monthly Cost: $147.00 (real-time AWS integration)
+- Potential Savings: $45.00 (AI-identified opportunities) 
+- Total Resources: 6 (across EC2, S3, EBS services)
+- Savings Percentage: 30.6% (optimization potential)
+
+**Interactive Features**
+- Start New Scan: Initiate comprehensive resource discovery
+- Refresh Data: Update cost calculations and recommendations
+- Check AWS Status: Verify connectivity and permissions
+
+**Data Visualizations**
+- Cost Breakdown: Pie chart showing spend distribution by service
+- Resource Distribution: Bar chart displaying resource counts
+- Recommendations Table: Prioritized optimization suggestions with confidence scores
+
+**Recent Activity Log**
+- Real-time activity tracking with timestamps
+- AWS connectivity status updates
+- Dashboard data refresh notifications
 
 ## Business Value Proposition
 

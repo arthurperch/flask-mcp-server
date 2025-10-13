@@ -4,8 +4,7 @@
 
 Enterprise Flask application suite featuring Model Context Protocol (MCP) server integration and a comprehensive AWS cost optimization platform. Designed for production environments with scalable architecture and business-grade reporting capabilities.
 
-![AWS Cost Optimizer Dashboard](./aws-cost-optimizer/aws-dashboard-screenshot.png)
-*Production dashboard showing real-time cost analysis with $147/month tracking and $45 potential savings identification*
+**Dashboard Features**: Professional web interface displaying real-time cost analysis with $147/month tracking and $45 potential savings identification. The dashboard includes interactive charts, cost breakdown visualizations, and AI-powered optimization recommendations with priority rankings.
 
 ## Repository Structure
 
