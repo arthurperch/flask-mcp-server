@@ -15,7 +15,7 @@ Your AWS Cost Optimizer platform has been successfully committed to git!
 
 2. **Add GitHub as remote and push:**
 ```bash
-cd C:\Users\olegp\OneDrive\Apps\MCP-AWS-Claude
+cd C:\Users\Nameofuser\OneDrive\Apps\MCP-AWS-Claude
 git remote add origin https://github.com/YOUR_USERNAME/aws-cost-optimizer.git
 git branch -M main
 git push -u origin main
