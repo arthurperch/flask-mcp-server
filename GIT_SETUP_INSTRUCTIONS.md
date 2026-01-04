@@ -23,7 +23,7 @@ git push -u origin main
 
 ### Option 2: Use GitHub CLI (if installed)
 ```bash
-cd C:\Users\olegp\OneDrive\Apps\MCP-AWS-Claude
+cd C:\Users\Nameofuser\OneDrive\Apps\MCP-AWS-Claude
 gh repo create aws-cost-optimizer --public --push
 ```
 
@@ -37,7 +37,7 @@ gh repo create aws-cost-optimizer --public --push
 - Professional documentation
 
 ✅ **Real Performance Metrics**
-- Connected to AWS account 611377760416
+- Connected to AWS account 612231760416
 - Monthly cost: $147.00
 - Potential savings: $45.00 (30.6%)
 - Resources: 2 EC2, 2 S3, 2 EBS volumes
