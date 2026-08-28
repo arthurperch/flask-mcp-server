@@ -284,7 +284,7 @@ from aws_cost_optimizer.logging import structured_logger
 
 logger = structured_logger.get_logger(__name__)
 logger.info("Cost scan completed", 
-           account_id="611377760416",
+           account_id="XXXX-XXXX-XXXX",
            resources_scanned=6,
            potential_savings=45.00)
 ```

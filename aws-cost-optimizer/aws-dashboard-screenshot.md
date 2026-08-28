@@ -7,7 +7,7 @@ The AWS Cost Optimizer dashboard screenshot shows:
 - Potential Savings: $45.00  
 - Total Resources: 6
 - Savings Percentage: 30.6%
-- Account: 611377760416
+- Account: XXXX-XXXX-XXXX
 
 ## Visual Elements
 - Cost breakdown pie chart (EC2, EBS, S3)

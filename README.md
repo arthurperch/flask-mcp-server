@@ -31,7 +31,7 @@ flask-mcp-server/
 
 **Cost Reduction Achieved**: $45/month savings identified (30.6% reduction)
 **Resources Monitored**: 6 AWS resources across EC2, S3, EBS services  
-**Account Integration**: Live connection to AWS account 611377760416
+**Account Integration**: Live connection to AWS account XXXX-XXXX-XXXX
 **Monthly Cost Tracking**: $147.00 with real-time analysis
 
 ### Enterprise Features

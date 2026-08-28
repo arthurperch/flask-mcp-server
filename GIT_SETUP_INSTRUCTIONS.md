@@ -37,7 +37,7 @@ gh repo create aws-cost-optimizer --public --push
 - Professional documentation
 
 ✅ **Real Performance Metrics**
-- Connected to AWS account 612231760416
+- Connected to AWS account XXXX-XXXX-XXXX
 - Monthly cost: $147.00
 - Potential savings: $45.00 (30.6%)
 - Resources: 2 EC2, 2 S3, 2 EBS volumes
