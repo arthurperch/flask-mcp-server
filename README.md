@@ -1,72 +1,35 @@
-# Flask MCP Server with AWS Cost Optimizer
-<img width="1915" height="940" alt="awssavings" src="https://github.com/user-attachments/assets/a3e6c58a-6f03-4d04-bb10-b4e75757a8d0" />
+# Flask MCP server
 
-## Executive Summary
+A small MCP server so an AI assistant can start/stop a Flask app and ask a few AWS questions.
 
-Enterprise Flask application suite featuring Model Context Protocol (MCP) server integration and a comprehensive AWS cost optimization platform. Designed for production environments with scalable architecture and business-grade reporting capabilities.
+This is a learning project. It is not an enterprise platform.
 
-**Dashboard Features**: Professional web interface displaying real-time cost analysis with $147/month tracking and $45 potential savings identification. The dashboard includes interactive charts, cost breakdown visualizations, and AI-powered optimization recommendations with priority rankings.
+There is also a Flask dashboard under `aws-cost-optimizer/` that lists AWS resources and estimated spend. Those numbers come from the account it is pointed at. Do not treat the screenshot as a product claim.
 
-## Repository Structure
+## What it can do
+
+| Tool | What it does |
+|---|---|
+| `start-flask-app` | Start the Flask app |
+| `stop-flask-app` | Stop it |
+| `check-flask-status` | Is it running? |
+| `list-flask-routes` | List Flask routes |
+| `test-flask-endpoint` | Hit one endpoint |
+| `get-flask-logs` | Show logs |
+| `check-aws-resources` | List a few AWS resources |
+
+## Setup
+
+Copy `.env.example` to `.env` and fill in:
 
 ```
-flask-mcp-server/
-├── aws-cost-optimizer/          # Primary AWS cost optimization platform
-│   ├── app.py                   # Flask web application
-│   ├── templates/               # Web dashboard UI
-│   ├── static/                  # CSS, JavaScript assets
-│   ├── services/                # AWS integration services
-│   ├── routes/                  # REST API endpoints  
-│   └── mcp/                     # Claude Desktop integration
-│
-├── flask_app_mcp.py            # Original MCP server implementation
-├── start_flask.py              # MCP server utilities
-├── test_mcp_server.py          # Testing framework
-└── requirements.txt            # Python dependencies
-```
-
-## Primary Project: AWS Cost Optimizer
-
-### Business Impact
-
-**Cost Reduction Achieved**: $45/month savings identified (30.6% reduction)
-**Resources Monitored**: 6 AWS resources across EC2, S3, EBS services  
-**Account Integration**: Live connection to AWS account XXXX-XXXX-XXXX
-**Monthly Cost Tracking**: $147.00 with real-time analysis
-
-### Enterprise Features
-- **Health Monitoring**: Check app status and endpoints
-- **Route Discovery**: Automatically find Flask routes
-- **AWS Integration**: Connect to AWS services
-- **Claude AI Integration**: Natural language Flask app control
-
-## 📋 Available Tools
-
-| Tool | Description |
-|------|-------------|
-| `start-flask-app` | Start your Flask application |
-| `stop-flask-app` | Stop the Flask application |
-| `check-flask-status` | Check if Flask is running |
-| `list-flask-routes` | Show all Flask routes |
-| `test-flask-endpoint` | Test specific endpoints |
-| `get-flask-logs` | View application logs |
-| `deploy-to-aws` | Deploy to AWS |
-| `check-aws-resources` | Check AWS resources |
-
-## ⚙️ Configuration
-
-Edit the `.env` file:
-
-```env
 FLASK_APP_PATH=/path/to/your/flask/app
 AWS_REGION=us-west-2
 FLASK_HOST=127.0.0.1
 FLASK_PORT=5000
 ```
 
-## 🔧 Claude Desktop Setup
-
-Add to your Claude Desktop config:
+Point Claude Desktop (or any MCP client) at `flask_app_mcp.py`:
 
 ```json
 {
@@ -82,6 +45,12 @@ Add to your Claude Desktop config:
 }
 ```
 
-## 📝 License
+## Layout
+
+```
+flask_app_mcp.py          MCP server
+start_flask.py            helper
+aws-cost-optimizer/       Flask dashboard
+```
 
 MIT License

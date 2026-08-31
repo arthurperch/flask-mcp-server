@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
-"""
-Flask App MCP Server
+"""Flask App MCP Server
 
-A Model Context Protocol server that provides tools to interact with Flask applications
-and AWS infrastructure for development and monitoring purposes.
+Tools so an AI assistant can start/stop a Flask app and ask a few AWS questions.
 """
 
 import asyncio
