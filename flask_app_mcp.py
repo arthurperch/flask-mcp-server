@@ -28,14 +28,11 @@ from mcp.types import (
 from pydantic import AnyUrl
 from dotenv import load_dotenv
 
-# Load environment variables
 load_dotenv()
 
-# Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("flask-app-mcp")
 
-# Initialize the MCP server
 server = Server("flask-app-mcp")
 
 # Flask app configuration
